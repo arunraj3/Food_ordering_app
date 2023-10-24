@@ -1,7 +1,7 @@
 # Food Ordering App Using React
 
 
-Basics Structure of the Application 
+## Basics Structure of the Application 
 <br/>
 App <br/>
 &nbsp;- Header <br/>
