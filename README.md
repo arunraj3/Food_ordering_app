@@ -2,18 +2,19 @@
 
 
 Basics Structure of the Application 
-
-App 
-    - Header 
-        - Logo
-        - Nav Items (Home , contact, cart )
-    - Body 
-        - Search
-        - RestaurantContainer 
-            - RestaurantCard
-    - Footer 
-        - Copyright
-        - Links
-        - Address
-        - Contact
+<br/>
+App <br/>
+    - Header <br/>
+        - Logo <br/>
+        - Nav Items (Home , contact, cart )<br/>
+    - Body <br/>
+        - Search<br/>
+        - RestaurantContainer <br/>
+            - RestaurantCard <br/>
+    - Footer <br/>
+        - Copyright <br/>
+        - Links <br/>
+        - Address <br/>
+        - Contact <br/>
+<br/>
 ..
