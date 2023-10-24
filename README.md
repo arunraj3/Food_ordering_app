@@ -4,8 +4,8 @@
 Basics Structure of the Application 
 <br/>
 App <br/>
-    - Header <br/>
-        - Logo <br/>
+&nbsp;- Header <br/>
+&nbsp;&nbsp;- Logo <br/>
         - Nav Items (Home , contact, cart )<br/>
     - Body <br/>
         - Search<br/>
