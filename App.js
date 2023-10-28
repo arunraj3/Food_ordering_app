@@ -13,12 +13,33 @@ import logo from "./AR_foodie_logo.png";
         Search
         RestaurantContainer
             RestaurantCard
+              Img
+              Name of Restaurant, Cuisine, Star Rating
     Footer
         Copyright
         Links
         Address
         Contact
 */
+const RestaurantCard = () => {
+  return (
+    <div className="restaurant-card" style={{ backgroundColor: "#F5F5F5" }}>
+      <img
+        className="restaurant-logo"
+        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/x4uyxvihmg8qa3pddkgf"
+        alt="restaurant-logo"
+      />
+      <h3>Restaurant Name</h3>
+      <h5>Biriyani, North Indian, Asian</h5>
+      <h5>4.5</h5>
+      <h5>38 minutes</h5>
+    </div>
+  );
+};
+
+const Footer = () => {
+  return <div className="footer"></div>;
+};
 
 const Header = () => {
   return (
@@ -27,13 +48,14 @@ const Header = () => {
             logo 
             Nav-items 
      */}
-
-      <img src={logo} className="logo"/>
+      <div className="logo-container">
+        <img src={logo} className="logo" />
+      </div>
       <div className="nav-items">
         <ul>
           <li>Home</li>
           <li>About Us</li>
-          <li>Contacts</li>
+          <li>Contact Us</li>
           <li>Cart</li>
         </ul>
       </div>
@@ -41,25 +63,30 @@ const Header = () => {
   );
 };
 
-const Body =()=>{
-    return(
-        <div className="body-component">
-            <div className="Restaurant-container">
-                
-            </div>
-        </div>
-    );
-}
+const Body = () => {
+  return (
+    <div className="body-component">
+      <div className="search">Search</div>
+      <div className="restaurant-container">
+        <RestaurantCard />
+      </div>
+    </div>
+  );
+};
+
 const App = () => {
   return (
-    <div className="app-layout">
+    <div className="app">
       {/* 
         Header
         Body
         Footer
          */}
       <Header />
+      <Body />
+      <Footer />
     </div>
   );
 };
+
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);

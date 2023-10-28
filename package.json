@@ -4,6 +4,8 @@
   "description": "\"Food ordering App using React\"",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest "
   },
   "repository": {
@@ -21,7 +23,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "parcel": "^2.10.0",
+    "parcel": "^2.10.1",
     "process": "^0.11.10"
   }
 }

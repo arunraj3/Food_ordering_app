@@ -1,19 +1,46 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
 
 .nav-items > ul {
-    display:flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
+}
+.nav-items {
+  padding: 0px 20px;
+}
+.logo {
+  width: 100px;
 }
 
-.logo{
-    width : 100px;
-}
-
-.nav-items > ul > li{
-    padding : 20px 20px;
+.nav-items > ul > li {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .header {
-    border: 1px solid black;
-    display:flex;
-    justify-content: space-between;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
 }
+
+.restaurant-card {
+  padding : 5px;
+  width: 250px;
+  height: 350px;
+  border: 1px solid black;
+}
+
+.search {
+  padding: 10px;
+  margin: 10px;
+}
+
+.restaurant-logo{
+  height : 40%;
+  width : 100%;
+  object-fit: cover;
+}
+
