@@ -28,10 +28,16 @@
 
 .restaurant-card {
   padding : 5px;
+  margin : 10px;
   width: 250px;
   height: 350px;
-  border: 1px solid black;
 }
+
+.restaurant-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
 
 .search {
   padding: 10px;
@@ -44,3 +50,7 @@
   object-fit: cover;
 }
 
+.restaurant-container{
+  display : flex;
+  flex-wrap : wrap;
+}
